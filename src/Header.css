@@ -1,0 +1,52 @@
+/* Header.css */
+
+header {
+    background-color: #333; /* Dark gray background color */
+    padding: 10px 20px; /* Add some padding */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space items evenly */
+    align-items: center; /* Align items vertically */
+  }
+  
+  nav ul {
+    list-style-type: none; /* Remove bullet points from the list */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox for layout */
+  }
+  
+  nav ul li {
+    margin-right: 20px; /* Add some spacing between list items */
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0; /* Remove margin from the last item */
+  }
+  
+  nav ul li a {
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  /* Hover effect for navigation links */
+  nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .cart-container {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically */
+  }
+  
+  .cart-count {
+    background-color: #ffffff; /* Red background color */
+    color: #000000; /* White text color */
+    font-size: 12px; /* Font size */
+    border-radius: 50%; /* Make it round */
+    padding: 4px 8px; /* Add padding */
+    margin-left: 4px; /* Add some space from the icon */
+  }
+
+
+  
+  
