@@ -35,5 +35,5 @@ export default defineConfig({
         open: true,
         cors: true,
     },
-    base: './',
+    base: "/PreEntrega1-Fernandez/",
 })
