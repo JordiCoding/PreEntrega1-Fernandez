@@ -1,15 +1,15 @@
 import React from 'react';
-import './Header.css';
+import './NavBar.css';
 import CartWidget from './CartWidget';
 
-const Header = ({ cartCount }) => {
+const NavBar = ({ cartCount }) => {
   return (
     <header>
       <nav>
         <ul>
           <li><a href="/">Home</a></li>
           <li><a href="/products">Products</a></li>
-          <li><a href="/about">About</a></li>
+          <li><a href="/AboutPage">About</a></li> {/* Botón para navegar a About */}
         </ul>
       </nav>
       <CartWidget cartCount={cartCount} /> {/* Pass cartCount as prop to CartWidget */}
@@ -17,4 +17,4 @@ const Header = ({ cartCount }) => {
   );
 };
 
-export default Header;
+export default NavBar;

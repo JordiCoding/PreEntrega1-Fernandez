@@ -1,7 +1,7 @@
 // CartWidget.jsx
 import React from 'react';
-import './Header.css'; // Importa el archivo de estilos CSS para el encabezado
-import cartIcon from './assets/carts.png'; // Import the cart icon
+import './NavBar.css'; 
+import cartIcon from '../assets/carts.png'; 
 
 const CartWidget = ({ cartCount }) => {
   return (
